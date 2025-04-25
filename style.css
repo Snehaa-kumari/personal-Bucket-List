@@ -1,0 +1,113 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fdfcfb;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 3em;
+  color: #5b8c85;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #888;
+}
+
+header .quote {
+  font-style: italic;
+  font-size: 1em;
+  margin-top: 10px;
+  color: #666;
+}
+
+/* Category Section */
+.category {
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.category:hover {
+  transform: translateY(-5px);
+}
+
+.category h2 {
+  color: #5b8c85;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.category h2 i {
+  margin-right: 10px;
+}
+
+.category ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.category ul li {
+  padding: 10px 0;
+  font-size: 1.1em;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+}
+
+.category ul li:last-child {
+  border-bottom: none;
+}
+
+.category ul li i {
+  color: #5b8c85;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.category ul li:hover i {
+  transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.2em;
+  }
+
+  .category h2 {
+    font-size: 1.5em;
+  }
+
+  .category ul li {
+    font-size: 1em;
+  }
+}
