@@ -14,9 +14,6 @@ It showcases goals and dreams across different life categories with icons and pr
 - CSS3  
 - Font Awesome
 
-## 📸 Preview
-![Screenshot](screenshot.png) <!-- Optional: Add a screenshot of your site here -->
-
 ## 🙋‍♀️ Author
 **Sneha Kumari**  
 Made with ❤️ and a lot of dreams ✨
